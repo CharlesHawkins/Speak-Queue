@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		440A65EB121CB02700163143 /* Speak Queue Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 440A65EA121CB02700163143 /* Speak Queue Icon.icns */; };
+		44444AE1137F1B36002DFBD3 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 44444AE0137F1B36002DFBD3 /* Pause.png */; };
+		44444AE3137F1C26002DFBD3 /* Save.png in Resources */ = {isa = PBXBuildFile; fileRef = 44444AE2137F1C26002DFBD3 /* Save.png */; };
+		445378A9121B2F9F0094B8C6 /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 445378A8121B2F9F0094B8C6 /* Clear.png */; };
+		446AB10C12E772D50091B301 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446AB10B12E772D50091B301 /* BWToolkitFramework.framework */; };
+		446AB11412E773080091B301 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 446AB10B12E772D50091B301 /* BWToolkitFramework.framework */; };
+		44B0FB891209ED0700B2DE3F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FB881209ED0700B2DE3F /* Carbon.framework */; };
+		44B0FC4F1209ED7300B2DE3F /* MainControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B0FC4E1209ED7300B2DE3F /* MainControl.m */; };
+		44CEC58412E8C88D00BE8821 /* PrefsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEC58312E8C88D00BE8821 /* PrefsControl.m */; };
+		44CEC59B12E8CC7500BE8821 /* PrefsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CEC59A12E8CC7500BE8821 /* PrefsWindow.xib */; };
+		44D035A11211082A00AB2B8D /* SpeechQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D035A01211082A00AB2B8D /* SpeechQueue.m */; };
+		44F1F00C1214C0A100C10F12 /* FF.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F1F0081214C0A100C10F12 /* FF.png */; };
+		44F1F00E1214C0A100C10F12 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F1F00A1214C0A100C10F12 /* Play.png */; };
+		44F1F00F1214C0A100C10F12 /* Rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F1F00B1214C0A100C10F12 /* Rewind.png */; };
+		44F48F9E12E76AF000159C2C /* PopupControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F48F9D12E76AF000159C2C /* PopupControl.m */; };
+		44F48FA312E76BA000159C2C /* PopupWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F48FA212E76BA000159C2C /* PopupWindow.xib */; };
+		44FD550A12EA98C800C6E5D4 /* AdvPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44FD550912EA98C800C6E5D4 /* AdvPopup.xib */; };
+		44FD550F12EA98E600C6E5D4 /* AdvControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FD550E12EA98E600C6E5D4 /* AdvControl.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		446AB11312E772EB0091B301 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				446AB11412E773080091B301 /* BWToolkitFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Speak Queue_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Speak Queue_Prefix.pch"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		440A65EA121CB02700163143 /* Speak Queue Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Speak Queue Icon.icns"; sourceTree = "<group>"; };
+		44444AE0137F1B36002DFBD3 /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
+		44444AE2137F1C26002DFBD3 /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Save.png; sourceTree = "<group>"; };
+		445378A8121B2F9F0094B8C6 /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
+		446AB10B12E772D50091B301 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
+		44B0FB881209ED0700B2DE3F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		44B0FC4D1209ED7300B2DE3F /* MainControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControl.h; sourceTree = "<group>"; };
+		44B0FC4E1209ED7300B2DE3F /* MainControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainControl.m; sourceTree = "<group>"; };
+		44CEC58212E8C88D00BE8821 /* PrefsControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsControl.h; sourceTree = "<group>"; };
+		44CEC58312E8C88D00BE8821 /* PrefsControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsControl.m; sourceTree = "<group>"; };
+		44CEC59A12E8CC7500BE8821 /* PrefsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrefsWindow.xib; sourceTree = "<group>"; };
+		44D0359F1211082A00AB2B8D /* SpeechQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechQueue.h; sourceTree = "<group>"; };
+		44D035A01211082A00AB2B8D /* SpeechQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechQueue.m; sourceTree = "<group>"; };
+		44F1F0081214C0A100C10F12 /* FF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FF.png; sourceTree = "<group>"; };
+		44F1F00A1214C0A100C10F12 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		44F1F00B1214C0A100C10F12 /* Rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rewind.png; sourceTree = "<group>"; };
+		44F48F9C12E76AF000159C2C /* PopupControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupControl.h; sourceTree = "<group>"; };
+		44F48F9D12E76AF000159C2C /* PopupControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupControl.m; sourceTree = "<group>"; };
+		44F48FA212E76BA000159C2C /* PopupWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupWindow.xib; sourceTree = "<group>"; };
+		44FD550912EA98C800C6E5D4 /* AdvPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvPopup.xib; sourceTree = "<group>"; };
+		44FD550D12EA98E600C6E5D4 /* AdvControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvControl.h; sourceTree = "<group>"; };
+		44FD550E12EA98E600C6E5D4 /* AdvControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvControl.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Speak Queue-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Speak Queue-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Speak Queue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speak Queue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				44B0FB891209ED0700B2DE3F /* Carbon.framework in Frameworks */,
+				446AB10C12E772D50091B301 /* BWToolkitFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44FD550D12EA98E600C6E5D4 /* AdvControl.h */,
+				44FD550E12EA98E600C6E5D4 /* AdvControl.m */,
+				44F48F9C12E76AF000159C2C /* PopupControl.h */,
+				44F48F9D12E76AF000159C2C /* PopupControl.m */,
+				44CEC58212E8C88D00BE8821 /* PrefsControl.h */,
+				44CEC58312E8C88D00BE8821 /* PrefsControl.m */,
+				44D0359F1211082A00AB2B8D /* SpeechQueue.h */,
+				44D035A01211082A00AB2B8D /* SpeechQueue.m */,
+				44B0FC4D1209ED7300B2DE3F /* MainControl.h */,
+				44B0FC4E1209ED7300B2DE3F /* MainControl.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44B0FB881209ED0700B2DE3F /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				446AB10B12E772D50091B301 /* BWToolkitFramework.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Speak Queue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TalQ */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TalQ;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* Speak Queue_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Speak Queue-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				44FD550912EA98C800C6E5D4 /* AdvPopup.xib */,
+				44F48FA212E76BA000159C2C /* PopupWindow.xib */,
+				44CEC59A12E8CC7500BE8821 /* PrefsWindow.xib */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				44F1EFF81214BCD900C10F12 /* Icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44F1EFF81214BCD900C10F12 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				440A65EA121CB02700163143 /* Speak Queue Icon.icns */,
+				44444AE2137F1C26002DFBD3 /* Save.png */,
+				445378A8121B2F9F0094B8C6 /* Clear.png */,
+				44444AE0137F1B36002DFBD3 /* Pause.png */,
+				44F1F0081214C0A100C10F12 /* FF.png */,
+				44F1F00A1214C0A100C10F12 /* Play.png */,
+				44F1F00B1214C0A100C10F12 /* Rewind.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Speak Queue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Speak Queue" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				446AB11312E772EB0091B301 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speak Queue";
+			productInstallPath = "$(HOME)/Applications";
+			productName = TalQ;
+			productReference = 8D1107320486CEB800E47090 /* Speak Queue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Speak Queue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TalQ */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Speak Queue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				44F1F00C1214C0A100C10F12 /* FF.png in Resources */,
+				44F1F00E1214C0A100C10F12 /* Play.png in Resources */,
+				44F1F00F1214C0A100C10F12 /* Rewind.png in Resources */,
+				445378A9121B2F9F0094B8C6 /* Clear.png in Resources */,
+				440A65EB121CB02700163143 /* Speak Queue Icon.icns in Resources */,
+				44F48FA312E76BA000159C2C /* PopupWindow.xib in Resources */,
+				44CEC59B12E8CC7500BE8821 /* PrefsWindow.xib in Resources */,
+				44FD550A12EA98C800C6E5D4 /* AdvPopup.xib in Resources */,
+				44444AE1137F1B36002DFBD3 /* Pause.png in Resources */,
+				44444AE3137F1C26002DFBD3 /* Save.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				44B0FC4F1209ED7300B2DE3F /* MainControl.m in Sources */,
+				44D035A11211082A00AB2B8D /* SpeechQueue.m in Sources */,
+				44F48F9E12E76AF000159C2C /* PopupControl.m in Sources */,
+				44CEC58412E8C88D00BE8821 /* PrefsControl.m in Sources */,
+				44FD550F12EA98E600C6E5D4 /* AdvControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../OSS/BWToolkit\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Speak Queue_Prefix.pch";
+				INFOPLIST_FILE = "Speak Queue-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Speak Queue";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../OSS/BWToolkit\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Speak Queue_Prefix.pch";
+				INFOPLIST_FILE = "Speak Queue-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Speak Queue";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Speak Queue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Speak Queue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,705 @@
+TSpeak Queue
+v7
+r0
+t325016914.719296
+cCheck dependencies
+cProcessInfoPlistFile "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Info.plist" "Speak Queue-Info.plist"
+cCopyStringsFile "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib
+cCpResource "build/Debug/Speak Queue.app/Contents/Resources/FF.png" FF.png
+cCpResource "build/Debug/Speak Queue.app/Contents/Resources/Play.png" Play.png
+cCpResource "build/Debug/Speak Queue.app/Contents/Resources/Rewind.png" Rewind.png
+cCpResource "build/Debug/Speak Queue.app/Contents/Resources/Clear.png" Clear.png
+cCpResource "build/Debug/Speak Queue.app/Contents/Resources/Speak Queue Icon.icns" "Speak Queue Icon.icns"
+cCpResource "build/Debug/Speak Queue.app/Contents/Resources/Pause.png" Pause.png
+cCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupWindow.xib
+cCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsWindow.xib
+cCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvPopup.xib
+cProcessPCH "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch.gch" "Speak Queue_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/main.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/MainControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/SpeechQueue.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PopupControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PrefsControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/AdvControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/MacOS/Speak Queue" normal i386
+cPBXCp "build/Debug/Speak Queue.app/Contents/Frameworks/BWToolkitFramework.framework" /Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework
+cTouch "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app"
+
+N/Developer-old/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004CC41EA700000000000005FF
+t1287921319
+s1535
+
+N/Developer-old/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004CC41EA700000000000005FF
+t1287921319
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004D921407000000000000A5F0
+t1301419015
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004D921407000000000000A5E0
+t1301419015
+s42464
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvControl.h
+c000000004D87B5E10000000000000754
+t1300739553
+s1876
+i<Cocoa/Cocoa.h>
+i"MainControl.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvControl.m
+c000000004DAB996E000000000000114D
+t1303091566
+s4429
+i"AdvControl.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvPopup.xib
+c000000004D88003D00000000000115C2
+t1300758589
+s71106
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Clear.png
+c000000004C6AF810000000000000024A
+t1282078736
+s586
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/InfoPlist.strings
+c000000004C59B4A7000000000000002D
+t1280947367
+s45
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib
+c000000004D389A66000000000003D79F
+t1295555174
+s251807
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/FF.png
+c000000004C6488F00000000000000A07
+t1281657072
+s2567
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.h
+c000000004DCEE56500000000000007C1
+t1305404773
+s1985
+i<Cocoa/Cocoa.h>
+i"SpeechQueue.h"
+i"PopupControl.h"
+i"PrefsControl.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m
+c000000004DCEE8510000000000003FF1
+t1305405521
+s16369
+i"MainControl.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Pause.png
+c000000004DCEE3AA00000000000000D3
+t1305404330
+s211
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Play.png
+c000000004C6488C7000000000000082A
+t1281657031
+s2090
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupControl.h
+c000000004D87B5E500000000000005BB
+t1300739557
+s1467
+i<Cocoa/Cocoa.h>
+i"MainControl.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupControl.m
+c000000004D87B22A000000000000069E
+t1300738602
+s1694
+i"PopupControl.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupWindow.xib
+c000000004D87AF1900000000000115EA
+t1300737817
+s71146
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsControl.h
+c000000004D9A00790000000000000809
+t1301938297
+s2057
+i<Cocoa/Cocoa.h>
+i"MainControl.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsControl.m
+c000000004D9A08B8000000000000165A
+t1301940408
+s5722
+i"PrefsControl.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsWindow.xib
+c000000004DAF25CD000000000001E1E8
+t1303324109
+s123368
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Rewind.png
+c000000004C6488FE0000000000000A02
+t1281657086
+s2562
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SQPreferences.h
+c000000004CDAD823000000000000015B
+t1289410595
+s347
+i<Cocoa/Cocoa.h>
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SQPreferences.m
+c000000004CDAD8560000000000000152
+t1289410646
+s338
+i"SQPreferences.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Save.png
+c000000004DCEE46B00000000000000EF
+t1305404523
+s239
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue Icon.icns
+c000000004C6C77BB00000000000252F1
+t1282176955
+s152305
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue_Prefix.pch
+c000000004C59BA4800000000000000A6
+t1280948808
+s166
+i<Cocoa/Cocoa.h>
+i<Carbon/Carbon.h>
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speech Queue Icon.icns
+c000000004C658CC40000000000026CC9
+t1281723588
+s158921
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.h
+c000000004DCEED8F000000000000082B
+t1305406863
+s2091
+i<Cocoa/Cocoa.h>
+i"MainControl.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m
+c000000004DCEED8F00000000000012D2
+t1305406863
+s4818
+i"SpeechQueue.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.h
+c000000004C60F7DA0000000000000132
+t1281423322
+s306
+i<Cocoa/Cocoa.h>
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m
+c000000004C60F4C40000000000000164
+t1281422532
+s356
+i"TalQAppDelegate.h"
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app
+t1303324114
+s102
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Frameworks/BWToolkitFramework.framework
+t1304366737
+s204
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Info.plist
+t1303091567
+s1355
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/MacOS/Speak Queue
+t1303323740
+s66620
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/PkgInfo
+t1303091567
+s8
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/AdvPopup.nib
+t1301938422
+s8958
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/Clear.png
+t1295387085
+s586
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1281660154
+s92
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/English.lproj/MainMenu.nib
+t1295555180
+s49492
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/FF.png
+t1281660154
+s2567
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/Pause.png
+t1295387085
+s186
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/Play.png
+t1281660154
+s2090
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/PopupWindow.nib
+t1300738057
+s8824
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/PrefsWindow.nib
+t1303324114
+s19454
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/Rewind.png
+t1281660154
+s2562
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/Save.png
+t2
+s0
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/Speak Queue Icon.icns
+t1295387085
+s152305
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/Speech Queue Icon.icns
+t1281723883
+s158921
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/AdvControl.o
+t1303091575
+s40224
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/MainControl.o
+t1303091574
+s68940
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PopupControl.o
+t1303091575
+s31256
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PrefsControl.o
+t1303091575
+s45104
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/SQPreferences.o
+t1289412341
+s12656
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/Speak Queue.LinkFileList
+c000000004D3BE48600000000000002CA
+t1295770758
+s714
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/SpeechQueue.o
+t1303323739
+s38228
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/TalQAppDelegate.o
+t1295387132
+s15288
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/main.o
+t1303091574
+s4868
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/AdvControl.o
+t2
+s0
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/MainControl.o
+t2
+s0
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/PopupControl.o
+t2
+s0
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/PrefsControl.o
+t2
+s0
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/Speak Queue.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/SpeechQueue.o
+t2
+s0
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m
+c000000004C59B4A70000000000000101
+t1280947367
+s257
+i<Cocoa/Cocoa.h>
+
+N/Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework
+c000000004DBF0E9100000000000000CC
+t1304366737
+s204
+
+N/Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework/BWToolkitFramework
+c000000004B596EAB00000000000E843C
+t1264152235
+s951356
+
+N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-dwdmubosqghsvtfroyqbrjzomndh/Speak Queue_Prefix.pch.gch
+t1281660182
+s45474384
+
+N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-esuovcpvfejszkcdhsdphfjiewbm/Speak Queue_Prefix.pch.gch
+t1295387127
+s45503056
+
+N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-fhyedgnbuuoywggglsjanrinaonf/Speak Queue_Prefix.pch.gch
+t1295470774
+s45503056
+
+N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-gazrtmdkqqkxanbxcfvikrnzqrpd/Speak Queue_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch.gch
+t1303091574
+s45507152
+
+NSpeak Queue-Info.plist
+c000000004C6C78C800000000000003F5
+t1282177224
+s1013
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325016914#325016914#0(0"0(0#1#0"2576315024#0"0#
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/AdvControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324784375.149660
+e324784375.400450
+r1
+xCompileC
+xbuild/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/AdvControl.o
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvControl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvControl.m324784375#324784375#0(0"0(0#0#50"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvControl.m2498437776#1614"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/../../../OSS/BWToolkit -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -include "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch" -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvControl.m -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/AdvControl.o"0#
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/MainControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324784374.254923
+e324784374.858471
+r1
+xCompileC
+xbuild/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/MainControl.o
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m324784374#324784374#0(0"0(0#0#51"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m2498437776#1616"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/../../../OSS/BWToolkit -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -include "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch" -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/MainControl.o"0#
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PopupControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324784374.858607
+e324784375.149513
+r1
+xCompileC
+xbuild/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PopupControl.o
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupControl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupControl.m324784374#324784375#0(0"0(0#0#52"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupControl.m2498437776#1618"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/../../../OSS/BWToolkit -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -include "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch" -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupControl.m -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PopupControl.o"0#
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PrefsControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324784374.896047
+e324784375.219409
+r1
+xCompileC
+xbuild/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PrefsControl.o
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsControl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsControl.m324784374#324784375#0(0"0(0#0#52"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsControl.m2498437776#1618"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/../../../OSS/BWToolkit -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -include "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch" -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsControl.m -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/PrefsControl.o"0#
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/SQPreferences.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SQPreferences.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s311105140.975075
+e311105141.891027
+r1
+xCompileC
+xbuild/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/SQPreferences.o
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SQPreferences.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SQPreferences.m311105140#311105142#0(0"0(0#0#53"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SQPreferences.m2565283776#1557"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -include "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-dwdmubosqghsvtfroyqbrjzomndh/Speak Queue_Prefix.pch" -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SQPreferences.m -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/SQPreferences.o"0#
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/SpeechQueue.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325016539.321318
+e325016539.907381
+r1
+xCompileC
+xbuild/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/SpeechQueue.o
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m325016539#325016539#0(0"0(0#0#51"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m4261848#1616"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/../../../OSS/BWToolkit -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -include "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch" -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/SpeechQueue.o"0#
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/TalQAppDelegate.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317079931.740130
+e317079932.644751
+r1
+xCompileC
+xbuild/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/TalQAppDelegate.o
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m317079931#317079932#0(0"0(0#0#55"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m2419663504#1561"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -include "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-esuovcpvfejszkcdhsdphfjiewbm/Speak Queue_Prefix.pch" -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/TalQAppDelegate.o"0#
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/main.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324784374.252661
+e324784374.558151
+r1
+xCompileC
+xbuild/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/main.o
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m324784374#324784374#0(0"0(0#0#44"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m4261848#1602"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/../../../OSS/BWToolkit -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -include "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch" -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/AdvControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvControl.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/MainControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/PopupControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupControl.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/PrefsControl.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsControl.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/SpeechQueue.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/x86_64/main.o" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvPopup.xib
+s323631221.644632
+e323631222.745350
+r1
+xCompileXIB
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvPopup.xib
+lSLF07#2@23"CompileXIB AdvPopup.xib323631221#323631222#0(0"0(0#0#50"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvPopup.xib2506826384#339"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/AdvPopup.nib" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/AdvPopup.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib
+s317247978.994973
+e317247980.579939
+r1
+xCompileXIB
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib:674: note: This view is clipping its content.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib317247978#317247980#0(151"/* com.apple.ibtool.document.notices *//Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib:674: note: This view is clipping its content.1(13@34"This view is clipping its content.317247980#4294967295#0#0(6@64"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib317247974#674#0#674#0#0"0(0#0#64"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib2419663504#367"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/English.lproj/MainMenu.nib" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupWindow.xib
+s322430856.780829
+e322430857.500572
+r1
+xCompileXIB
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupWindow.xib
+lSLF07#2@26"CompileXIB PopupWindow.xib322430856#322430857#0(0"0(0#0#53"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupWindow.xib2506826384#345"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/PopupWindow.nib" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PopupWindow.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsWindow.xib
+s325016914.184165
+e325016914.713972
+r1
+xCompileXIB
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsWindow.xib
+lSLF07#2@26"CompileXIB PrefsWindow.xib325016914#325016914#0(0"0(0#0#53"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsWindow.xib2576315024#345"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/PrefsWindow.nib" /Users/hawkins/myapps/Cocoa/TalQ/TalQ/PrefsWindow.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CCpResource "build/Debug/Speak Queue.app/Contents/Resources/Clear.png" Clear.png
+s317079884.876708
+e317079885.028235
+r1
+xCpResource
+xbuild/Debug/Speak Queue.app/Contents/Resources/Clear.png
+xClear.png
+lSLF07#2@14"Copy Clear.png317079884#317079885#0(0"0(0#0#47"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Clear.png2419663504#342"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/hawkins/myapps/Cocoa/TalQ/TalQ/Clear.png "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Speak Queue.app/Contents/Resources/FF.png" FF.png
+r0
+
+CCpResource "build/Debug/Speak Queue.app/Contents/Resources/Pause.png" Pause.png
+s317079884.879504
+e317079885.095320
+r1
+xCpResource
+xbuild/Debug/Speak Queue.app/Contents/Resources/Pause.png
+xPause.png
+lSLF07#2@14"Copy Pause.png317079884#317079885#0(0"0(0#0#47"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Pause.png2419663504#342"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/hawkins/myapps/Cocoa/TalQ/TalQ/Pause.png "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Speak Queue.app/Contents/Resources/Play.png" Play.png
+r0
+
+CCpResource "build/Debug/Speak Queue.app/Contents/Resources/Rewind.png" Rewind.png
+r0
+
+CCpResource "build/Debug/Speak Queue.app/Contents/Resources/Save.png" Save.png
+r0
+
+CCpResource "build/Debug/Speak Queue.app/Contents/Resources/Speak Queue Icon.icns" "Speak Queue Icon.icns"
+s317079884.878350
+e317079885.338256
+r1
+xCpResource
+xbuild/Debug/Speak Queue.app/Contents/Resources/Speak Queue Icon.icns
+xSpeak Queue Icon.icns
+lSLF07#2@26"Copy Speak Queue Icon.icns317079884#317079885#0(0"0(0#0#59"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue Icon.icns2419663504#356"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue Icon.icns" "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources"0#
+
+CCpResource "build/Debug/Speak Queue.app/Contents/Resources/Speech Queue Icon.icns" "Speech Queue Icon.icns"
+s303416682.983569
+e303416683.041101
+r1
+xCpResource
+xbuild/Debug/Speak Queue.app/Contents/Resources/Speech Queue Icon.icns
+xSpeech Queue Icon.icns
+lSLF07#2@27"Copy Speech Queue Icon.icns303416682#303416683#0(0"0(0#0#60"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speech Queue Icon.icns4872912#343"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speech Queue Icon.icns" "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Resources"0#
+
+CLd "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/MacOS/Speak Queue" normal i386
+s325016539.907505
+e325016540.658935
+r1
+xLd
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/MacOS/Speak Queue
+xnormal
+xi386
+lSLF07#2@97"Link /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/MacOS/Speak Queue325016539#325016540#0(0"0(0#0#0"4261848#668"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/../../../OSS/BWToolkit -filelist "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Objects-normal/i386/Speak Queue.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -framework BWToolkitFramework -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/MacOS/Speak Queue"0#
+
+CLd "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/MacOS/Speak Queue" normal x86_64
+r0
+
+CPBXCp "build/Debug/Speak Queue.app/Contents/Frameworks/BWToolkitFramework.framework" /Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework
+s317163582.433536
+e317163586.190823
+r1
+xPBXCp
+xbuild/Debug/Speak Queue.app/Contents/Frameworks/BWToolkitFramework.framework
+x/Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework
+lSLF07#2@69"Copy /Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework317163582#317163586#0(0"0(0#0#64"/Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework2419663504#360"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Frameworks"0#
+
+CProcessInfoPlistFile "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Info.plist" "Speak Queue-Info.plist"
+s324784367.037768
+e324784367.079031
+r1
+xProcessInfoPlistFile
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Info.plist
+xSpeak Queue-Info.plist
+lSLF07#2@30"Process Speak Queue-Info.plist324784367#324784367#0(0"0(0#0#60"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue-Info.plist4261848#325"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    builtin-infoPlistUtility "Speak Queue-Info.plist" -genpkginfo "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app/Contents/Info.plist"0#
+
+CProcessPCH "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-dwdmubosqghsvtfroyqbrjzomndh/Speak Queue_Prefix.pch.gch" "Speak Queue_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-esuovcpvfejszkcdhsdphfjiewbm/Speak Queue_Prefix.pch.gch" "Speak Queue_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s317079886.959454
+e317079928.145050
+r1
+xProcessPCH
+x/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-esuovcpvfejszkcdhsdphfjiewbm/Speak Queue_Prefix.pch.gch
+xSpeak Queue_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Speak Queue_Prefix.pch317079886#317079928#0(0"0(0#0#60"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue_Prefix.pch4255560#1444"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -c "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue_Prefix.pch" -o "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-esuovcpvfejszkcdhsdphfjiewbm/Speak Queue_Prefix.pch.gch"0#
+
+CProcessPCH "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-fhyedgnbuuoywggglsjanrinaonf/Speak Queue_Prefix.pch.gch" "Speak Queue_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s317163453.295889
+e317163575.388603
+r1
+xProcessPCH
+x/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-fhyedgnbuuoywggglsjanrinaonf/Speak Queue_Prefix.pch.gch
+xSpeak Queue_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Speak Queue_Prefix.pch317163453#317163575#0(0"0(0#0#60"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue_Prefix.pch4255560#1507"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/../../../OSS/BWToolkit -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -c "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue_Prefix.pch" -o "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-fhyedgnbuuoywggglsjanrinaonf/Speak Queue_Prefix.pch.gch"0#
+
+CProcessPCH "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-gazrtmdkqqkxanbxcfvikrnzqrpd/Speak Queue_Prefix.pch.gch" "Speak Queue_Prefix.pch" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch.gch" "Speak Queue_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324784367.080317
+e324784374.252384
+r1
+xProcessPCH
+x/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch.gch
+xSpeak Queue_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Speak Queue_Prefix.pch324784367#324784374#0(0"0(0#0#60"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue_Prefix.pch2498437776#1507"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-generated-files.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-own-target-headers.hmap" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-all-target-headers.hmap" -iquote "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/Speak Queue-project-headers.hmap" -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/../../../OSS/BWToolkit -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources/i386" "-I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Speak Queue.build/Debug/Speak Queue.build/DerivedSources" -c "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Speak Queue_Prefix.pch" -o "/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Speak Queue_Prefix-hhyigkpdlmkocqatnfokoykrkzxd/Speak Queue_Prefix.pch.gch"0#
+
+CTouch "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app"
+s325016914.715216
+e325016914.719233
+r1
+xTouch
+x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app
+lSLF07#2@71"Touch /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app325016914#325016914#0(0"0(0#0#0"2576315024#135"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /usr/bin/touch -c "/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/Speak Queue.app"0#
+
