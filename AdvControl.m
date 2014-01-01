@@ -17,6 +17,7 @@
 	voicesForSpeakers = [NSMutableDictionary dictionary];
 	[advWindow setFloatingPanel:YES];
 	[advWindow setBecomesKeyOnlyIfNeeded:YES];
+    [advWindow setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces|NSWindowCollectionBehaviorFullScreenAuxiliary];
 	[theTable setDataSource:self];
 	prefs = [[NSUserDefaultsController sharedUserDefaultsController] defaults];
 }

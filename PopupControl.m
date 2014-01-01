@@ -20,6 +20,7 @@
 	[voiceTable setDataSource:self];
 	[popupWindow setFloatingPanel:YES];
 	[popupWindow setBecomesKeyOnlyIfNeeded:YES];
+    [popupWindow setCollectionBehavior:NSWindowCollectionBehaviorCanJoinAllSpaces|NSWindowCollectionBehaviorFullScreenAuxiliary];
 	prefs = [[NSUserDefaultsController sharedUserDefaultsController] defaults];
 }
 
