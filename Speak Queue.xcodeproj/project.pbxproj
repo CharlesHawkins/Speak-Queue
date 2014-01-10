@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		440A65EB121CB02700163143 /* Speak Queue Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 440A65EA121CB02700163143 /* Speak Queue Icon.icns */; };
 		44444AE1137F1B36002DFBD3 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 44444AE0137F1B36002DFBD3 /* Pause.png */; };
 		44444AE3137F1C26002DFBD3 /* Save.png in Resources */ = {isa = PBXBuildFile; fileRef = 44444AE2137F1C26002DFBD3 /* Save.png */; };
 		445378A9121B2F9F0094B8C6 /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 445378A8121B2F9F0094B8C6 /* Clear.png */; };
+		4466903918808F6A00103055 /* SpeakQueue.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4466903818808F6900103055 /* SpeakQueue.icns */; };
 		446AB10C12E772D50091B301 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446AB10B12E772D50091B301 /* BWToolkitFramework.framework */; };
 		446AB11412E773080091B301 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 446AB10B12E772D50091B301 /* BWToolkitFramework.framework */; };
 		44B0FB891209ED0700B2DE3F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FB881209ED0700B2DE3F /* Carbon.framework */; };
@@ -53,10 +53,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		440A65EA121CB02700163143 /* Speak Queue Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Speak Queue Icon.icns"; sourceTree = "<group>"; };
 		44444AE0137F1B36002DFBD3 /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
 		44444AE2137F1C26002DFBD3 /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Save.png; sourceTree = "<group>"; };
 		445378A8121B2F9F0094B8C6 /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
+		4466903818808F6900103055 /* SpeakQueue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SpeakQueue.icns; sourceTree = "<group>"; };
 		446AB10B12E772D50091B301 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
 		44B0FB881209ED0700B2DE3F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		44B0FC4D1209ED7300B2DE3F /* MainControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControl.h; sourceTree = "<group>"; };
@@ -185,7 +185,7 @@
 		44F1EFF81214BCD900C10F12 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				440A65EA121CB02700163143 /* Speak Queue Icon.icns */,
+				4466903818808F6900103055 /* SpeakQueue.icns */,
 				44444AE2137F1C26002DFBD3 /* Save.png */,
 				445378A8121B2F9F0094B8C6 /* Clear.png */,
 				44444AE0137F1B36002DFBD3 /* Pause.png */,
@@ -256,12 +256,12 @@
 				44F1F00E1214C0A100C10F12 /* Play.png in Resources */,
 				44F1F00F1214C0A100C10F12 /* Rewind.png in Resources */,
 				445378A9121B2F9F0094B8C6 /* Clear.png in Resources */,
-				440A65EB121CB02700163143 /* Speak Queue Icon.icns in Resources */,
 				44F48FA312E76BA000159C2C /* PopupWindow.xib in Resources */,
 				44CEC59B12E8CC7500BE8821 /* PrefsWindow.xib in Resources */,
 				44FD550A12EA98C800C6E5D4 /* AdvPopup.xib in Resources */,
 				44444AE1137F1B36002DFBD3 /* Pause.png in Resources */,
 				44444AE3137F1C26002DFBD3 /* Save.png in Resources */,
+				4466903918808F6A00103055 /* SpeakQueue.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
