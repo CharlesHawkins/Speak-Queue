@@ -3,7 +3,7 @@
 //  Speak Queue
 //
 //  Created by Charles Hawkins on 1/20/11.
-//  Copyright 2011 Charles Hawkins. All rights reserved.
+//  Copyright 2011 - 2014 Charles Hawkins. All rights reserved.
 //
 //  Description: PrefsControl manages the preferences window.  This mainly means managing
 //  the hotkey-setting NSSheet and grabbing the hotkeys the user enters.  Key events while

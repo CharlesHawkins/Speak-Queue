@@ -3,7 +3,7 @@
 //  TalQ
 //
 //  Created by Charles Hawkins on 8/4/10.
-//  Copyright 2010 Charles Hawkins. All rights reserved.
+//  Copyright 2010 - 2014 Charles Hawkins. All rights reserved.
 //
 #ifndef MAINCONTROL
 #define MAINCONTROL

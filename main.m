@@ -3,7 +3,7 @@
 //  TalQ
 //
 //  Created by Charles Hawkins on 8/4/10.
-//  Copyright 2010 University of Maryland. All rights reserved.
+//  Copyright 2010 - 2014 Charles Hawkins. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

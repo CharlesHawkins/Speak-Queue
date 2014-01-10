@@ -3,7 +3,7 @@
 //  Speak Queue
 //
 //  Created by Charles Hawkins on 1/21/11.
-//  Copyright 2011 Charles Hawkins. All rights reserved.
+//  Copyright 2011 - 2014 Charles Hawkins. All rights reserved.
 //
 //  Description: Controls the Script Enqueue popup window.
 //
