@@ -20,11 +20,17 @@
     [prefsPauseHotkey setStringValue: hotkeyString([prefs integerForKey:@"hotkeyPause"],[prefs integerForKey:@"modsPause"])];
     [prefsNextHotkey setStringValue: hotkeyString([prefs integerForKey:@"hotkeyNext"],[prefs integerForKey:@"modsNext"])];
     [prefsBackHotkey setStringValue: hotkeyString([prefs integerForKey:@"hotkeyBack"],[prefs integerForKey:@"modsBack"])];
-	if(!(replace = [prefs objectForKey:@"replace"]))
+	if((replace = [prefs objectForKey:@"replace"]))
+        replace = [NSMutableArray arrayWithArray:replace];
+    else
 		replace = [NSMutableArray array];
-	if(!(replaceWith = [prefs objectForKey:@"replaceWith"]))
+	if((replaceWith = [prefs objectForKey:@"replaceWith"]))
+        replaceWith = [NSMutableArray arrayWithArray:replaceWith];
+    else
 		replaceWith = [NSMutableArray array];
-    if(!(caseSensitive = [prefs objectForKey:@"caseSensitive"]))
+    if((caseSensitive = [prefs objectForKey:@"caseSensitive"]))
+        caseSensitive = [NSMutableArray arrayWithArray:caseSensitive];
+    else
 		caseSensitive = [NSMutableArray array];
 	[buttonRemove setEnabled:NO];
 	[theTable reloadData];
