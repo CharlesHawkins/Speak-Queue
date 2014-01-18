@@ -36,7 +36,11 @@
 	NSArray *replace;
 	NSString *ProcString;
 	if([prefs boolForKey:@"pauseAtNewlines"])
-		ProcString = [text stringByReplacingOccurrencesOfString:@"\n" withString:@".  "];
+    {
+		ProcString = [text stringByReplacingOccurrencesOfString:@"\n" withString:@".  \n"];
+		ProcString = [ProcString stringByReplacingOccurrencesOfString:@"\".  \n" withString:@"\"  "];
+        ProcString = [ProcString stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+    }
 	else
 		ProcString = [text stringByReplacingOccurrencesOfString:@"\n" withString:@" "];
 	if((replace = [prefs objectForKey:@"replace"]))
