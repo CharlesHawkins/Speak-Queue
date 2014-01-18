@@ -56,7 +56,7 @@ const double maxSpeakingRate = 360.0;
 		[rateSlider setNumberOfTickMarks:5];
 		
 		/* Load icons */
-		playIcon = [NSImage imageNamed:@"Play.png"];
+		playIcon = [NSImage imageNamed:@"PlayTemplate.pdf"];
 		pauseIcon = [NSImage imageNamed:@"Pause.png"];
 		
 		[voicePopup selectItemAtIndex:0];

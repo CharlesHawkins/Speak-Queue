@@ -12,6 +12,11 @@
 		44444AE3137F1C26002DFBD3 /* Save.png in Resources */ = {isa = PBXBuildFile; fileRef = 44444AE2137F1C26002DFBD3 /* Save.png */; };
 		445378A9121B2F9F0094B8C6 /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 445378A8121B2F9F0094B8C6 /* Clear.png */; };
 		4466903918808F6A00103055 /* SpeakQueue.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4466903818808F6900103055 /* SpeakQueue.icns */; };
+		4466903B18809FD000103055 /* PlayTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4466903A18809FD000103055 /* PlayTemplate.pdf */; };
+		4466903E1880A04700103055 /* FFTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4466903C1880A04700103055 /* FFTemplate.pdf */; };
+		4466903F1880A04700103055 /* RWTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4466903D1880A04700103055 /* RWTemplate.pdf */; };
+		446690451880A1CF00103055 /* ClearTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 446690441880A1CF00103055 /* ClearTemplate.pdf */; };
+		4466904B1880A24E00103055 /* PauseTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4466904A1880A24E00103055 /* PauseTemplate.pdf */; };
 		446AB10C12E772D50091B301 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446AB10B12E772D50091B301 /* BWToolkitFramework.framework */; };
 		446AB11412E773080091B301 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 446AB10B12E772D50091B301 /* BWToolkitFramework.framework */; };
 		44B0FB891209ED0700B2DE3F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B0FB881209ED0700B2DE3F /* Carbon.framework */; };
@@ -19,8 +24,6 @@
 		44CEC58412E8C88D00BE8821 /* PrefsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEC58312E8C88D00BE8821 /* PrefsControl.m */; };
 		44CEC59B12E8CC7500BE8821 /* PrefsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CEC59A12E8CC7500BE8821 /* PrefsWindow.xib */; };
 		44D035A11211082A00AB2B8D /* SpeechQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D035A01211082A00AB2B8D /* SpeechQueue.m */; };
-		44F1F00C1214C0A100C10F12 /* FF.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F1F0081214C0A100C10F12 /* FF.png */; };
-		44F1F00E1214C0A100C10F12 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F1F00A1214C0A100C10F12 /* Play.png */; };
 		44F1F00F1214C0A100C10F12 /* Rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F1F00B1214C0A100C10F12 /* Rewind.png */; };
 		44F48F9E12E76AF000159C2C /* PopupControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F48F9D12E76AF000159C2C /* PopupControl.m */; };
 		44F48FA312E76BA000159C2C /* PopupWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F48FA212E76BA000159C2C /* PopupWindow.xib */; };
@@ -57,6 +60,11 @@
 		44444AE2137F1C26002DFBD3 /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Save.png; sourceTree = "<group>"; };
 		445378A8121B2F9F0094B8C6 /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
 		4466903818808F6900103055 /* SpeakQueue.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SpeakQueue.icns; sourceTree = "<group>"; };
+		4466903A18809FD000103055 /* PlayTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PlayTemplate.pdf; sourceTree = "<group>"; };
+		4466903C1880A04700103055 /* FFTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FFTemplate.pdf; sourceTree = "<group>"; };
+		4466903D1880A04700103055 /* RWTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = RWTemplate.pdf; sourceTree = "<group>"; };
+		446690441880A1CF00103055 /* ClearTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ClearTemplate.pdf; sourceTree = "<group>"; };
+		4466904A1880A24E00103055 /* PauseTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PauseTemplate.pdf; sourceTree = "<group>"; };
 		446AB10B12E772D50091B301 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/hawkins/myapps/OSS/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
 		44B0FB881209ED0700B2DE3F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		44B0FC4D1209ED7300B2DE3F /* MainControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainControl.h; sourceTree = "<group>"; };
@@ -66,8 +74,6 @@
 		44CEC59A12E8CC7500BE8821 /* PrefsWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrefsWindow.xib; sourceTree = "<group>"; };
 		44D0359F1211082A00AB2B8D /* SpeechQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechQueue.h; sourceTree = "<group>"; };
 		44D035A01211082A00AB2B8D /* SpeechQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechQueue.m; sourceTree = "<group>"; };
-		44F1F0081214C0A100C10F12 /* FF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FF.png; sourceTree = "<group>"; };
-		44F1F00A1214C0A100C10F12 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
 		44F1F00B1214C0A100C10F12 /* Rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rewind.png; sourceTree = "<group>"; };
 		44F48F9C12E76AF000159C2C /* PopupControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupControl.h; sourceTree = "<group>"; };
 		44F48F9D12E76AF000159C2C /* PopupControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupControl.m; sourceTree = "<group>"; };
@@ -186,11 +192,14 @@
 			isa = PBXGroup;
 			children = (
 				4466903818808F6900103055 /* SpeakQueue.icns */,
+				446690441880A1CF00103055 /* ClearTemplate.pdf */,
+				4466904A1880A24E00103055 /* PauseTemplate.pdf */,
+				4466903C1880A04700103055 /* FFTemplate.pdf */,
+				4466903D1880A04700103055 /* RWTemplate.pdf */,
 				44444AE2137F1C26002DFBD3 /* Save.png */,
 				445378A8121B2F9F0094B8C6 /* Clear.png */,
 				44444AE0137F1B36002DFBD3 /* Pause.png */,
-				44F1F0081214C0A100C10F12 /* FF.png */,
-				44F1F00A1214C0A100C10F12 /* Play.png */,
+				4466903A18809FD000103055 /* PlayTemplate.pdf */,
 				44F1F00B1214C0A100C10F12 /* Rewind.png */,
 			);
 			name = Icons;
@@ -250,18 +259,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4466903E1880A04700103055 /* FFTemplate.pdf in Resources */,
+				4466903F1880A04700103055 /* RWTemplate.pdf in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				446690451880A1CF00103055 /* ClearTemplate.pdf in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				44F1F00C1214C0A100C10F12 /* FF.png in Resources */,
-				44F1F00E1214C0A100C10F12 /* Play.png in Resources */,
 				44F1F00F1214C0A100C10F12 /* Rewind.png in Resources */,
 				445378A9121B2F9F0094B8C6 /* Clear.png in Resources */,
 				44F48FA312E76BA000159C2C /* PopupWindow.xib in Resources */,
 				44CEC59B12E8CC7500BE8821 /* PrefsWindow.xib in Resources */,
 				44FD550A12EA98C800C6E5D4 /* AdvPopup.xib in Resources */,
+				4466903B18809FD000103055 /* PlayTemplate.pdf in Resources */,
 				44444AE1137F1B36002DFBD3 /* Pause.png in Resources */,
 				44444AE3137F1C26002DFBD3 /* Save.png in Resources */,
 				4466903918808F6A00103055 /* SpeakQueue.icns in Resources */,
+				4466904B1880A24E00103055 /* PauseTemplate.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
