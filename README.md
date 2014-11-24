@@ -55,7 +55,7 @@ The "Reset Speaking Rates" button resets the speaking rates of all the voices to
 
 Hotkeys
 -------
-The Hotkeys section of the Preferences is used to set the hotkeys for various functions.  Use the Set Key… button to choose a cey combination to activat that function.
+The Hotkeys section of the Preferences is used to set the hotkeys for various functions.  Use the Set Key… button to choose a key combination to activat that function.
 
 Substitution
 ------------
