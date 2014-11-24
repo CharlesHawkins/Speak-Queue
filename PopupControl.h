@@ -3,7 +3,7 @@
 //  Speak Queue
 //
 //  Created by Charles Hawkins on 1/19/11.
-//  Copyright 2011 - 2014 Charles Hawkins. All rights reserved.
+//  Copyright 2011 - 2014 Charles Hawkins.
 //
 //  Description: Controls the Popup Enqueue popup window.  When MainControl gets some text to enqueue it
 //  calls popupWithText:withVoices:atRates:.  This method sets up and displays the popup window.
@@ -12,6 +12,21 @@
 //
 //  This class acts as the data source for the popup's NSTableView that displays the list of voices.
 //
+
+/*      This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ 
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
 
 #ifndef POPUPCONTROL
 #define POPUPCONTROL
