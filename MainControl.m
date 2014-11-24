@@ -35,7 +35,7 @@ const double maxSpeakingRate = 360.0;
 	[[NSUserDefaults standardUserDefaults] registerDefaults:defaultPrefs];
 	[[NSUserDefaults standardUserDefaults] synchronize];
 	[self initKeyDictinoary];
-	return self;
+    return [super init];
 }
 
 - (void)awakeFromNib
@@ -79,16 +79,18 @@ const double maxSpeakingRate = 360.0;
         NSArray *listOfAvailableVoiceIdentifiers = [NSSpeechSynthesizer availableVoices];
         NSSet *setOfVoiceIdentifiers = [NSSet setWithArray:listOfVoiceIdentifiers];
         NSSet *setOfAvailableVoiceIdentifiers = [NSSet setWithArray:listOfAvailableVoiceIdentifiers];
+        NSMutableArray *newListOfVoiceIdentifiers = [NSMutableArray arrayWithArray:listOfVoiceIdentifiers];
         for (NSString *currentVoiceIdentifier in listOfVoiceIdentifiers)
         {
             if(![setOfAvailableVoiceIdentifiers containsObject:currentVoiceIdentifier])
-                [listOfVoiceIdentifiers removeObject:currentVoiceIdentifier];
+                [newListOfVoiceIdentifiers removeObject:currentVoiceIdentifier];
         }
         for (NSString *currentVoiceIdentifier in listOfAvailableVoiceIdentifiers)
         {
             if(![setOfVoiceIdentifiers containsObject:currentVoiceIdentifier])
-                [listOfVoiceIdentifiers addObject:currentVoiceIdentifier];
+                [newListOfVoiceIdentifiers addObject:currentVoiceIdentifier];
         }
+        listOfVoiceIdentifiers = newListOfVoiceIdentifiers;
     }
     else
         listOfVoiceIdentifiers = [NSMutableArray arrayWithArray:[NSSpeechSynthesizer availableVoices]];
