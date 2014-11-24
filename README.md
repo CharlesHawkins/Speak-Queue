@@ -21,7 +21,7 @@ If you have text in a movie-script-style format, i.e.:
     Jim: Doctor, a member of my crew has died, I want to know why!
     Bones: Dammit, Jim, I'm a doctor, not a miracle-worker!
 
-Then you can use the Script Enqueue to assign voices to the different characters.  Select all the text and hit the Script Enqueue hotkey (default Command-Option-Shift-J) and a popup will appear with the name of each character next to a pulldown to assign a voice to that character.  Speak Queue does this by looking for the first colon on each line and interpret everything before that as a character's name; if it makes a mistake, such as if there's a line of stage direction with a colon in it, just select "(Not a Speaker)" as the voice for that "character".  The "(Narrator)" voice will be used speak any lines without a character.  If you tell it that (Narrator) is (Not a Speaker), then each line without a character name will be spoken by the last character to speak (and any such lines that come before the first character will be spoken in the currently-selected voice in from the main window).
+Then you can use the Script Enqueue to assign voices to the different characters.  Select all the text and hit the Script Enqueue hotkey (default Command-Option-Shift-J) and a popup will appear with the name of each character next to a pulldown to assign a voice to that character.  Speak Queue does this by looking for the first colon on each line and interpreting everything before that as a character's name; if it makes a mistake, such as if there's a line of stage direction with a colon in it, just select "(Not a Speaker)" as the voice for that "character".  The "(Narrator)" voice will be used speak any lines without a character.  If you tell it that (Narrator) is (Not a Speaker), then each line without a character name will be spoken by the last character to speak (and any such lines that come before the first character will be spoken in the currently-selected voice in from the main window).
 
 Controlling Playback
 --------------------
@@ -56,3 +56,7 @@ The "Reset Speaking Rates" button resets the speaking rates of all the voices to
 Hotkeys
 -------
 The Hotkeys section of the Preferences is used to set the hotkeys for various functions.  Use the Set Key… button to choose a cey combination to activat that function.
+
+Substitution
+------------
+If the speech synthesizer is pronouncing something wrong, you may be able to help it with this panel.  Here you can tell it to replace instances of one word with another in any text you give it to read.  Click the + button to add a rule, and enter the text to replace and the text to replace it with, in the respective fields.  Check "Case" if you want the rule to be case-sensitive.
