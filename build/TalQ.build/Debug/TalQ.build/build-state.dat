@@ -1,421 +1,0 @@
-TTalQ
-v7
-r0
-t303350385.215363
-cCheck dependencies
-cProcessInfoPlistFile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Info.plist TalQ-Info.plist
-cCopyStringsFile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib
-cCpResource build/Debug/TalQ.app/Contents/Resources/FF.png FF.png
-cCpResource build/Debug/TalQ.app/Contents/Resources/Pause.png Pause.png
-cCpResource build/Debug/TalQ.app/Contents/Resources/Play.png Play.png
-cCpResource build/Debug/TalQ.app/Contents/Resources/Rewind.png Rewind.png
-cProcessPCH /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-dwdmubosqghsvtfroyqbrjzomndh/TalQ_Prefix.pch.gch TalQ_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/main.o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/TalQAppDelegate.o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/MainControl.o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/SpeechQueue.o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/MacOS/TalQ normal i386
-cTouch /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004A769DAB00000000000000EE
-t1249287595
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
-c000000004AC3F2CB0000000000000477
-t1254355659
-s1143
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
-c000000004B448EEF00000000000005FF
-t1262784239
-s1535
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004C0FDD7E000000000000A5F0
-t1276108158
-s42480
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/InfoPlist.strings
-c000000004C59B4A7000000000000002D
-t1280947367
-s45
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib
-c000000004C648D3400000000000351BC
-t1281658164
-s217532
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/FF.png
-c000000004C6488F00000000000000A07
-t1281657072
-s2567
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.h
-c000000004C6485DA000000000000036A
-t1281656282
-s874
-i<Cocoa/Cocoa.h>
-i"SpeechQueue.h"
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m
-c000000004C648AB90000000000001262
-t1281657529
-s4706
-i"MainControl.h"
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Pause.png
-c000000004C6488DE000000000000034F
-t1281657054
-s847
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Play.png
-c000000004C6488C7000000000000082A
-t1281657031
-s2090
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Rewind.png
-c000000004C6488FE0000000000000A02
-t1281657086
-s2562
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.h
-c000000004C646AD40000000000000747
-t1281649364
-s1863
-i<Cocoa/Cocoa.h>
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m
-c000000004C64623C0000000000000DE4
-t1281647164
-s3556
-i"SpeechQueue.h"
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.h
-c000000004C60F7DA0000000000000132
-t1281423322
-s306
-i<Cocoa/Cocoa.h>
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m
-c000000004C60F4C40000000000000164
-t1281422532
-s356
-i"TalQAppDelegate.h"
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch
-c000000004C59BA4800000000000000A6
-t1280948808
-s166
-i<Cocoa/Cocoa.h>
-i<Carbon/Carbon.h>
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app
-t1281657585
-s102
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Info.plist
-t1280948118
-s877
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/MacOS/TalQ
-t1281657542
-s30844
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/PkgInfo
-t1280948118
-s8
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1280948120
-s92
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/English.lproj/MainMenu.nib
-t1281657585
-s43611
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/FF.png
-t1281657533
-s2567
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/Pause.png
-t1281657533
-s847
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/Play.png
-t1281657533
-s2090
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/Rewind.png
-t1281657533
-s2562
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/MainControl.o
-t1281657539
-s31364
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/SpeechQueue.o
-t1281649369
-s30156
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/TalQ.LinkFileList
-c000000004C60F59A00000000000001A5
-t1281422746
-s421
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/TalQAppDelegate.o
-t1281460837
-s15288
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/main.o
-t1281460836
-s4860
-
-N/Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m
-c000000004C59B4A70000000000000101
-t1280947367
-s257
-i<Cocoa/Cocoa.h>
-
-N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-cnulzrbjmbgbrwbtnnqvijftltkn/TalQ_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-copyerbmyrvpbsfnzqyherfbzjjb/TalQ_Prefix.pch.gch
-t1281377374
-s45470288
-
-N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-cpzlabdblrftfngfnljftupuifkn/TalQ_Prefix.pch.gch
-t1281424190
-s45474384
-
-N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-dwdmubosqghsvtfroyqbrjzomndh/TalQ_Prefix.pch.gch
-t1281460835
-s45474384
-
-N/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-hbwmtejnjoaupdgfvffgsewibimu/TalQ_Prefix.pch.gch
-t1280948826
-s45470288
-
-NTalQ-Info.plist
-c000000004C59B4A700000000000003EA
-t1280947367
-s1002
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies303350384#303350384#0(0"0(0#1#0"2565283776#0"0#
-
-CCompileC build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/MainControl.o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303350334.627314
-e303350340.053485
-r1
-xCompileC
-xbuild/TalQ.build/Debug/TalQ.build/Objects-normal/i386/MainControl.o
-x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m:132: warning: incomplete implementation of class 'MainControl'
-o/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m:132: warning: method definition for '-restartSpeaking:' not found
-o/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m:132: warning: method definition for '-speakNextItem:' not found
-lSLF07#2@59"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m303350334#303350340#0(349"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m:132: warning: incomplete implementation of class 'MainControl'/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m:132: warning: method definition for '-restartSpeaking:' not found/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m:132: warning: method definition for '-speakNextItem:' not found3(22@48"Incomplete implementation of class 'MainControl'303350338#0#115#0(6@51"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m303350329#132#0#132#0#38"incomplete implementation of class '*'0(22@51"Method definition for '-restartSpeaking:' not found303350338#115#118#0(6@51"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m303350329#132#0#132#0#35"method definition for '*' not found0(22@49"Method definition for '-speakNextItem:' not found303350338#233#116#0(6@51"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m303350329#132#0#132#0#35"method definition for '*' not found0(0#0#51"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m4386904#1397"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-generated-files.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-own-target-headers.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-all-target-headers.hmap -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-project-headers.hmap -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources/i386 -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources -include /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-dwdmubosqghsvtfroyqbrjzomndh/TalQ_Prefix.pch -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/MainControl.m -o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/MainControl.o0#
-
-CCompileC build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/SpeechQueue.o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303342169.220615
-e303342169.450581
-r1
-xCompileC
-xbuild/TalQ.build/Debug/TalQ.build/Objects-normal/i386/SpeechQueue.o
-x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@59"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m303342169#303342169#0(0"0(0#0#51"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m2565283776#1397"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-generated-files.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-own-target-headers.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-all-target-headers.hmap -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-project-headers.hmap -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources/i386 -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources -include /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-dwdmubosqghsvtfroyqbrjzomndh/TalQ_Prefix.pch -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/SpeechQueue.m -o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/SpeechQueue.o0#
-
-CCompileC build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/TalQAppDelegate.o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303153637.012101
-e303153637.233891
-r1
-xCompileC
-xbuild/TalQ.build/Debug/TalQ.build/Objects-normal/i386/TalQAppDelegate.o
-x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m303153637#303153637#0(0"0(0#0#55"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m2565283776#1405"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-generated-files.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-own-target-headers.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-all-target-headers.hmap -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-project-headers.hmap -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources/i386 -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources -include /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-dwdmubosqghsvtfroyqbrjzomndh/TalQ_Prefix.pch -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQAppDelegate.m -o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/TalQAppDelegate.o0#
-
-CCompileC build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/main.o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303153635.947218
-e303153637.011965
-r1
-xCompileC
-xbuild/TalQ.build/Debug/TalQ.build/Objects-normal/i386/main.o
-x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m303153635#303153637#0(0"0(0#0#44"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m2565283776#1383"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-generated-files.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-own-target-headers.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-all-target-headers.hmap -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-project-headers.hmap -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources/i386 -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources -include /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-dwdmubosqghsvtfroyqbrjzomndh/TalQ_Prefix.pch -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/main.m -o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib
-s303350384.491528
-e303350385.209162
-r1
-xCompileXIB
-x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib303350384#303350385#0(0"0(0#0#64"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib2565283776#321"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/English.lproj/MainMenu.nib /Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/MainMenu.xib0#
-
-CCopyStringsFile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s302640918.157210
-e302640920.456578
-r1
-xCopyStringsFile
-x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings302640918#302640920#0(0"0(0#0#69"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/English.lproj/InfoPlist.strings4386904#360"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Debug/TalQ.app/Contents/Resources/FF.png FF.png
-s303350333.809615
-e303350333.874355
-r1
-xCpResource
-xbuild/Debug/TalQ.app/Contents/Resources/FF.png
-xFF.png
-lSLF07#2@11"Copy FF.png303350333#303350333#0(0"0(0#0#44"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/FF.png2565283776#316"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/hawkins/myapps/Cocoa/TalQ/TalQ/FF.png /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources0#
-
-CCpResource build/Debug/TalQ.app/Contents/Resources/Pause.png Pause.png
-s303350333.810973
-e303350333.871384
-r1
-xCpResource
-xbuild/Debug/TalQ.app/Contents/Resources/Pause.png
-xPause.png
-lSLF07#2@14"Copy Pause.png303350333#303350333#0(0"0(0#0#47"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Pause.png2565283776#319"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/hawkins/myapps/Cocoa/TalQ/TalQ/Pause.png /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources0#
-
-CCpResource build/Debug/TalQ.app/Contents/Resources/Play.png Play.png
-s303350333.812612
-e303350333.870224
-r1
-xCpResource
-xbuild/Debug/TalQ.app/Contents/Resources/Play.png
-xPlay.png
-lSLF07#2@13"Copy Play.png303350333#303350333#0(0"0(0#0#46"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Play.png2565283776#318"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/hawkins/myapps/Cocoa/TalQ/TalQ/Play.png /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources0#
-
-CCpResource build/Debug/TalQ.app/Contents/Resources/Rewind.png Rewind.png
-s303350333.814769
-e303350333.869575
-r1
-xCpResource
-xbuild/Debug/TalQ.app/Contents/Resources/Rewind.png
-xRewind.png
-lSLF07#2@15"Copy Rewind.png303350333#303350333#0(0"0(0#0#48"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/Rewind.png2565283776#320"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/hawkins/myapps/Cocoa/TalQ/TalQ/Rewind.png /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Resources0#
-
-CLd /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/MacOS/TalQ normal i386
-s303350340.053907
-e303350342.802053
-r1
-xLd
-x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/MacOS/TalQ
-xnormal
-xi386
-lSLF07#2@83"Link /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/MacOS/TalQ303350340#303350342#0(0"0(0#0#0"4386904#536"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -filelist /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/Objects-normal/i386/TalQ.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Carbon -o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/MacOS/TalQ0#
-
-CProcessInfoPlistFile /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Info.plist TalQ-Info.plist
-s302640918.084395
-e302640918.157059
-r1
-xProcessInfoPlistFile
-x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Info.plist
-xTalQ-Info.plist
-lSLF07#2@23"Process TalQ-Info.plist302640918#302640918#0(0"0(0#0#53"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ-Info.plist4386904#298"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    builtin-infoPlistUtility TalQ-Info.plist -genpkginfo /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app/Contents/Info.plist0#
-
-CProcessPCH /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-cnulzrbjmbgbrwbtnnqvijftltkn/TalQ_Prefix.pch.gch TalQ_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302641309.058515
-e302641309.106815
-r0
-xProcessPCH
-x/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-cnulzrbjmbgbrwbtnnqvijftltkn/TalQ_Prefix.pch.gch
-xTalQ_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oerror: can't exec '/Developer/Library/Xcode/Plug-ins/GCC 4.2.xcplugin/Contents/Resources/ccache gcc' (No such file or directory)
-lSLF07#2@26"Precompile TalQ_Prefix.pch302641309#302641309#0(129"error: can't exec '/Developer/Library/Xcode/Plug-ins/GCC 4.2.xcplugin/Contents/Resources/ccache gcc' (No such file or directory)1(4@121"Can't exec '/Developer/Library/Xcode/Plug-ins/GCC 4.2.xcplugin/Contents/Resources/ccache gcc' (No such file or directory)302641309#0#129#0(6@0"302641309#0#0#0#0#0"0(0#0#53"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch2565283776#1341"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    "/Developer/Library/Xcode/Plug-ins/GCC 4.2.xcplugin/Contents/Resources/ccache gcc" -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-generated-files.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-own-target-headers.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-all-target-headers.hmap -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-project-headers.hmap -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources/i386 -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch -o /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-cnulzrbjmbgbrwbtnnqvijftltkn/TalQ_Prefix.pch.gch71#
-
-CProcessPCH /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-copyerbmyrvpbsfnzqyherfbzjjb/TalQ_Prefix.pch.gch TalQ_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s303070163.146801
-e303070174.531389
-r1
-xProcessPCH
-x/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-copyerbmyrvpbsfnzqyherfbzjjb/TalQ_Prefix.pch.gch
-xTalQ_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile TalQ_Prefix.pch303070163#303070174#0(0"0(0#0#53"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch4386904#1285"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-generated-files.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-own-target-headers.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-all-target-headers.hmap -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-project-headers.hmap -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources/i386 -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch -o /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-copyerbmyrvpbsfnzqyherfbzjjb/TalQ_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-cpzlabdblrftfngfnljftupuifkn/TalQ_Prefix.pch.gch TalQ_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s303116964.861233
-e303116991.082412
-r1
-xProcessPCH
-x/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-cpzlabdblrftfngfnljftupuifkn/TalQ_Prefix.pch.gch
-xTalQ_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile TalQ_Prefix.pch303116964#303116991#0(0"0(0#0#53"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch2565283776#1300"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-generated-files.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-own-target-headers.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-all-target-headers.hmap -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-project-headers.hmap -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources/i386 -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch -o /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-cpzlabdblrftfngfnljftupuifkn/TalQ_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-dwdmubosqghsvtfroyqbrjzomndh/TalQ_Prefix.pch.gch TalQ_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s303153610.057983
-e303153635.946986
-r1
-xProcessPCH
-x/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-dwdmubosqghsvtfroyqbrjzomndh/TalQ_Prefix.pch.gch
-xTalQ_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile TalQ_Prefix.pch303153610#303153635#0(0"0(0#0#53"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch4872912#1295"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-generated-files.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-own-target-headers.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-all-target-headers.hmap -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-project-headers.hmap -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources/i386 -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch -o /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-dwdmubosqghsvtfroyqbrjzomndh/TalQ_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-hbwmtejnjoaupdgfvffgsewibimu/TalQ_Prefix.pch.gch TalQ_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s302641612.326292
-e302641626.337056
-r1
-xProcessPCH
-x/var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-hbwmtejnjoaupdgfvffgsewibimu/TalQ_Prefix.pch.gch
-xTalQ_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile TalQ_Prefix.pch302641612#302641626#0(0"0(0#0#53"/Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch2565283776#1285"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-generated-files.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-own-target-headers.hmap -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-all-target-headers.hmap -iquote /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/TalQ-project-headers.hmap -F/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/include -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources/i386 -I/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/TalQ.build/Debug/TalQ.build/DerivedSources -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/TalQ_Prefix.pch -o /var/folders/3s/3s1m1pQmE04VQI3j0AO8Vk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TalQ_Prefix-hbwmtejnjoaupdgfvffgsewibimu/TalQ_Prefix.pch.gch0#
-
-CTouch /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app
-s303350385.210366
-e303350385.215263
-r1
-xTouch
-x/Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app
-lSLF07#2@64"Touch /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app303350385#303350385#0(0"0(0#0#0"2565283776#126"    cd /Users/hawkins/myapps/Cocoa/TalQ/TalQ    /usr/bin/touch -c /Users/hawkins/myapps/Cocoa/TalQ/TalQ/build/Debug/TalQ.app0#
-
