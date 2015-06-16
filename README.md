@@ -9,9 +9,9 @@ Speak Queue is a Mac app (10.6+) that uses the built-in speech synthesier to rea
 
 Queuing Up Text
 ---------------
-To queue up text to speak, select text in any app and hit the hotkey (default Command-Control-J).  The text is added to the queue and will start speaking with the currently-selected voice.  You can select more text and add it with the same hotkey; they will be spoken in the order you added them.  This uses uses the system clipboard, so it will work with any app that recognizes Command-C as the copy command and copies text to the clipboard when Command-C is pressed.
+To queue up text to speak, select text in any app and hit the hotkey (default Command-Control-J).  The text is added to the queue and will start speaking with the currently-selected voice.  You can select more text and add it with the same hotkey; they will be spoken in the order you added them.  Each item is dropped from the queue after it is spoken.  Speak Queue uses uses the system clipboard to get text from other apps, so it will work with any app that recognizes Command-C as the copy command and copies text to the clipboard when Command-C is pressed.
 
-To queue up text in different voices, use the Popup Enqueue hotkey (default Command-Option-Control-J).  This will bring up a popup window with the list of voices; select one and hit "Queue Up" to queue up the text in that voice.
+To queue up text in different voices, select some text and use the Popup Enqueue hotkey (default Command-Option-Control-J).  This will bring up a popup window with the list of voices; select one and hit "Queue Up" to queue up the text in that voice.
 
 If you have text in a movie-script-style format, i.e.:
 
