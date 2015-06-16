@@ -45,7 +45,7 @@ The "Reset Speaking Rates" button resets the speaking rates of all the voices to
 
 "Move voices to top when selected" moves a voice to the top of the list of voices when you choose that voice either in the main window or in one of the popups.  Useful if you want more recently-used voices nearer the top of the list.
 
-"Newlines end sentences" puts a period after any hard-returns in the text.  Useful for lists and section headings that otherwise run into the text below them without any pause.
+"Newlines end sentences" puts a period after any hard-returns in the text.  Useful for lists and section headings that otherwise run into the text below them without any pause.  (Currently there is an issue where the new voices introduced in Mavericks will say the word "dot" after some lines when this is checked.  I'm trying to fix this)
 
 "Open popups at mouse" will open the Popup and Script Popup windows next to the mouse cursor each time you activate their respective hotkeys, rather than remembering where you last dragged them.
 
